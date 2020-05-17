@@ -40,37 +40,37 @@
       {
         "id": 1,
         "name": "Comet Diver",
-        "area_id": 1
+        "areaId": 1
       },
       {
         "id": 2,
         "name": "The Defiant Boat",
-        "area_id": 1
+        "areaId": 1
       },
       {
         "id": 3,
         "name": "Tower of Adventure",
-        "area_id": 2
+        "areaId": 2
       },
       {
         "id": 4,
         "name": "The Daffy House",
-        "area_id": 2
+        "areaId": 2
       },
       {
         "id": 5,
         "name": "Dream Fun Park",
-        "area_id": 2
+        "areaId": 2
       },
       {
         "id": 6,
         "name": "Division Wheel",
-        "area_id": 3
+        "areaId": 3
       },
       {
         "id": 7,
         "name": "Rider of Stars",
-        "area_id": 3
+        "areaId": 3
       }
     ],
     "itinerary": [
