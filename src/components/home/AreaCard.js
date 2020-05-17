@@ -7,7 +7,7 @@ const AreaCard = props => {
         <>
             <div>
             <h3>{props.area.name}</h3>
-            <p>More info to come</p>            
+            {props.attractions.map(attraction => <p key={attraction.id}>{attraction.name}</p>)}          
             </div>
         </>
     )

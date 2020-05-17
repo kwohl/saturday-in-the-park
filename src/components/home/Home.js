@@ -5,14 +5,17 @@ import AreaCard from './AreaCard';
 const Home = (props) => {
     const [areas, setAreas] = useState([]);
 
-    const getAreas = () => {
-        return ParkManager.getAreas().then(response => {
-            setAreas(response);
+    const getAreasWithAttractions = () => {
+        return ParkManager.getAreasWithAttractions().then(response => {
+            setAreas(response)
         });
     };
 
+    
+
+
     useEffect(() => {
-        getAreas()
+        getAreasWithAttractions()
     }, []);
 
     return (
@@ -23,6 +26,7 @@ const Home = (props) => {
                 <AreaCard
                     key={area.id}
                     area={area}
+                    attractions={area.attractions}
                     { ...props }
                 />
                 )}
