@@ -9,5 +9,9 @@ export default {
     getAttractions() {
         return fetch(`${baseUrl}/attractions`)
             .then(response => response.json())
+    },
+    getItineraryInfo(customerId) {
+        return fetch(`${baseUrl}/itinerary?customerId=${customerId}&_expand=attraction`)
+            .then(response => response.json())
     }
 }
