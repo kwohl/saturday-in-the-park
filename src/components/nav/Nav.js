@@ -9,8 +9,8 @@ const NavBar = props => {
             <Link to='/ '>
                 Home
             </Link>
-            <Link to='/itinerary'>
-                Itinerary
+            <Link to='/myitinerary'>
+                My Itinerary
             </Link>
             <Link to='/login'>
                 Log In

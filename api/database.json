@@ -76,33 +76,33 @@
     "itinerary": [
       {
         "id": 1,
-        "start_time": "12:00 PM",
-        "attraction_id": 3,
-        "customer_id": 1
+        "startTime": "12:00 PM",
+        "attractionId": 3,
+        "customerId": 1
       },
       {
         "id": 2,
-        "start_time": "12:00 PM",
-        "attraction_id": 4,
-        "customer_id": 1
+        "startTime": "12:00 PM",
+        "attractionId": 4,
+        "customerId": 1
       },
       {
         "id": 3,
-        "start_time": "12:00 PM",
-        "attraction_id": 7,
-        "customer_id": 1
+        "startTime": "12:00 PM",
+        "attractionId": 7,
+        "customerId": 1
       },
       {
         "id": 4,
-        "start_time": "12:00 PM",
-        "attraction_id": 1,
-        "customer_id": 2
+        "startTime": "12:00 PM",
+        "attractionId": 1,
+        "customerId": 2
       },
       {
         "id": 5,
-        "start_time": "12:00 PM",
-        "attraction_id": 6,
-        "customer_id": 2
+        "startTime": "12:00 PM",
+        "attractionId": 6,
+        "customerId": 2
       }
     ]
   }

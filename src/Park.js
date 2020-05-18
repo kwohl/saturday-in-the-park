@@ -10,7 +10,6 @@ function Park() {
     <>
     <NavBar />
     <ApplicationViews />
-    <Home />
     </>
   );
 }

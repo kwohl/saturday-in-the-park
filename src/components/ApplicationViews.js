@@ -13,7 +13,7 @@ const ApplicationViews = (props) => {
         <Route path="/ " render={props => {
             return <Home { ...props }/> 
         }}/>
-        <Route path="/itinerary" render={props => {
+        <Route path="/myitinerary" render={props => {
             return <Itinerary { ...props }/>   
         }}/>
         <Route path="/login" render={props => {
