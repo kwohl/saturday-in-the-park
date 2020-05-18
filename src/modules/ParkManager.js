@@ -13,5 +13,9 @@ export default {
     getItineraryInfo(customerId) {
         return fetch(`${baseUrl}/itinerary?customerId=${customerId}&_expand=attraction`)
             .then(response => response.json())
+    },
+    getCustomers() {
+        return fetch(`${baseUrl}/customers`)
+            .then(response => response.json())
     }
 }

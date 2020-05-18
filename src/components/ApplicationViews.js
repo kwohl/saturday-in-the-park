@@ -7,7 +7,9 @@ import Itinerary from "./itinerary/Itinerary";
 
 
 const ApplicationViews = (props) => {
-       
+    const setUser = props.setUser;
+    const hasUser = props.hasUser;
+
     return (
         <>
         <Route path="/ " render={props => {
@@ -17,10 +19,10 @@ const ApplicationViews = (props) => {
             return <Itinerary { ...props }/>   
         }}/>
         <Route path="/login" render={props => {
-            return <Login { ...props }/> 
+            return <Login setUser={setUser} { ...props }/> 
         }}/>
         <Route path="/register" render={props => {
-            return <Register { ...props }/>   
+            return <Register setUser={setUser} { ...props }/>   
         }}/>
         </>
     );
